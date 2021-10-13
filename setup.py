@@ -45,5 +45,6 @@ setup(
     keywords="chatbot, clever-chat, clever-bot, chat, bot",
     packages=find_packages(),
     install_requires=req,
-    packagers=['cleverchat.py']
+    packagers=['cleverchat.py'],
+    python_requires=">=3.4"
 )
