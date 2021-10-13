@@ -23,13 +23,14 @@ SOFTWARE.
 """
 
 from setuptools import setup, find_packages
+from clever_chat import __version__
 
 with open("requirements.txt") as f:
     req = f.read().splitlines()
 
 setup(
     name="cleverchat.py",
-    version="0.0.1",
+    version=__version__,
     description="API Wrapper for clever-chat API",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

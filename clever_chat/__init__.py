@@ -25,3 +25,5 @@ SOFTWARE.
 from .client import *
 from .errors import MissingMessageArgument, APIError
 from .result import *
+
+__version__ = '0.0.2'
