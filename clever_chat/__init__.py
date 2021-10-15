@@ -26,4 +26,4 @@ from .client import Client, AsyncClient
 from .errors import MissingMessageArgument, APIError
 from .result import Result
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
