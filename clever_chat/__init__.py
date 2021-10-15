@@ -22,8 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 # pylint: disable=all
-from .client import *
+from .client import Client, AsyncClient
 from .errors import MissingMessageArgument, APIError
-from .result import *
+from .result import Result
 
 __version__ = '0.0.2'
