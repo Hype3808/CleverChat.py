@@ -29,7 +29,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="cleverchat.py",
-    version='0.0.2',
+    version='0.0.3',
     description="API Wrapper for clever-chat API",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
